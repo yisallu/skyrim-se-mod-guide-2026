@@ -7,7 +7,7 @@
 
 2026 年新入坑，最省心的路线是：Steam 正版英文版 Skyrim Special Edition / Anniversary Edition + Mod Organizer 2 + SKSE AE 当前版 + 只安装支持你游戏运行时版本的 Mod。
 
-![三选一 / 二选一](assets/badges/choice.svg) 版本路线三选一：下面三条不是都要装，而是按你的游戏来源和运行时版本选一条。
+![多选一](assets/badges/choice.svg) 版本路线三选一：下面三条不是都要装，而是按你的游戏来源和运行时版本选一条。
 
 | 路线 | 游戏运行时 | SKSE | 适合谁 |
 | --- | --- | --- | --- |
@@ -19,7 +19,7 @@
 
 ## 阅读图例
 
-![三选一 / 二选一](assets/badges/choice.svg) 同类方案按口味或兼容性选，不要全装。
+![多选一](assets/badges/choice.svg) 同类方案按口味或兼容性选，不要全装。
 
 ![游戏根目录](assets/badges/root.svg) 文件要放到 `SkyrimSE.exe` 所在文件夹。
 
@@ -71,7 +71,7 @@
 | SSE Engine Fixes Part 2 | ![游戏根目录](assets/badges/root.svg) | 解压到 `SkyrimSE.exe` 所在文件夹 |
 | ENBSeries 的 `d3d11.dll`、`d3dcompiler_46e.dll` | ![游戏根目录](assets/badges/root.svg) | ENB 底层文件 |
 | ENB 预设文件 | ![游戏根目录](assets/badges/root.svg) | 按预设作者说明覆盖根目录 |
-| LOOT / xEdit / BodySlide / Nemesis / Pandora | ![MO2 工具](assets/badges/tool.svg) | 添加到 MO2 可执行程序里再运行 |
+| LOOT / xEdit / BodySlide / Pandora | ![MO2 工具](assets/badges/tool.svg) | 添加到 MO2 可执行程序里再运行 |
 
 ## 必装或常用前置 Mod
 
@@ -105,15 +105,14 @@
 
 ## 功能类 Mod
 
-![三选一 / 二选一](assets/badges/choice.svg) 动作生成器二选一：新手不要同时纠结 Nemesis 和 Pandora。2026 年可以优先试 Pandora；如果某个动作作者明确要求 Nemesis，再按作者要求换。
+![MO2 工具](assets/badges/tool.svg) 2026 年动作行为生成器推荐直接用 Pandora。把它添加到 MO2 可执行程序里运行，生成行为文件后再进游戏测试。
 
 - [RaceMenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080)：捏脸插件。游戏中按 `~` 打开控制台，输入 `showracemenu`。
 - [Alternate Start](https://www.nexusmods.com/skyrimspecialedition/mods/272)：开局不用坐马车。
 - [Achievements Mods Enabler](https://www.nexusmods.com/skyrimspecialedition/mods/245)：启用 Mod 后仍可解锁成就。
 - [Stay At The System Page](https://www.nexusmods.com/skyrimspecialedition/mods/67883)：按 ESC 停留在系统选项。
 - [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)：身形和服装刷形工具。
-- ![MO2 工具](assets/badges/tool.svg) ![三选一 / 二选一](assets/badges/choice.svg) [Nemesis Unlimited Behavior Engine](https://www.nexusmods.com/skyrimspecialedition/mods/60033)：经典动作行为生成器。
-- ![MO2 工具](assets/badges/tool.svg) ![三选一 / 二选一](assets/badges/choice.svg) [Pandora Behaviour Engine Plus](https://github.com/Monitor221hz/Pandora-Behaviour-Engine-Plus/releases)：2026 年更推荐优先尝试的行为生成器，当前可见版本为 `v4.3.1-beta`。
+- ![MO2 工具](assets/badges/tool.svg) [Pandora Behaviour Engine Plus](https://github.com/Monitor221hz/Pandora-Behaviour-Engine-Plus/releases)：2026 年推荐的动作行为生成器，当前可见版本为 `v4.3.1-beta`。
 - [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614)：360 度移动和现代化第三人称控制。
 - [AddItemMenu](https://www.nexusmods.com/skyrimspecialedition/mods/17563)：物品获取器，可获取 ESP 内物品。新版本环境下如果有问题，优先看评论区和替代品。
 - [Wheeler](https://www.nexusmods.com/skyrimspecialedition/mods/97345)：天际快速行动轮。
@@ -136,11 +135,11 @@
 
 - ![MO2 安装](assets/badges/mo2.svg) [NAT.ENB / Natural and Atmospheric Tamriel](https://www.nexusmods.com/skyrimspecialedition/mods/27141)：天气基础。
 
-![三选一 / 二选一](assets/badges/choice.svg) ENB 预设三选一：下面三个按口味选一个，不要同时装。通常把预设文件按作者说明放到游戏根目录。
+![多选一](assets/badges/choice.svg) ENB 预设三选一：下面三个按口味选一个，不要同时装。通常把预设文件按作者说明放到游戏根目录。
 
-- ![游戏根目录](assets/badges/root.svg) ![三选一 / 二选一](assets/badges/choice.svg) [Cabbage ENB for NAT](https://www.nexusmods.com/skyrimspecialedition/mods/103042)：白菜预设。
-- ![游戏根目录](assets/badges/root.svg) ![三选一 / 二选一](assets/badges/choice.svg) [Rudy ENB for NAT](https://www.nexusmods.com/skyrimspecialedition/mods/91675)：Rudy NAT 预设。
-- ![游戏根目录](assets/badges/root.svg) ![三选一 / 二选一](assets/badges/choice.svg) [PI-CHO ENB](https://www.nexusmods.com/skyrimspecialedition/mods/35082)：PI-CHO 预设。
+- ![游戏根目录](assets/badges/root.svg) ![多选一](assets/badges/choice.svg) [Cabbage ENB for NAT](https://www.nexusmods.com/skyrimspecialedition/mods/103042)：白菜预设。
+- ![游戏根目录](assets/badges/root.svg) ![多选一](assets/badges/choice.svg) [Rudy ENB for NAT](https://www.nexusmods.com/skyrimspecialedition/mods/91675)：Rudy NAT 预设。
+- ![游戏根目录](assets/badges/root.svg) ![多选一](assets/badges/choice.svg) [PI-CHO ENB](https://www.nexusmods.com/skyrimspecialedition/mods/35082)：PI-CHO 预设。
 - [Skyrim 202X Downscale](https://www.nexusmods.com/skyrimspecialedition/mods/68307)：优化后的 2020 材质，2K 比较适合大多数机器。
 - [Folkvangr - Grass and Landscape Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/44899)：草地景观大修。
 - [Fabled Forests](https://www.nexusmods.com/skyrimspecialedition/mods/94462)：森林/树木。
@@ -150,7 +149,7 @@
 
 ## 动作、服装和任务地图
 
-动作方面，老路线是 Nemesis，新路线可以先试 Pandora。部分动作作者会在 YouTube 视频说明里列出 10 到 20 个前置，必须按说明装。
+动作方面，2026 年按 Pandora 路线处理即可。部分动作作者会在 YouTube 视频说明里列出 10 到 20 个前置，必须按说明装。
 
 ![按作者说明](assets/badges/follow.svg) 免费阎魔刀动作示例：[YouTube 视频](https://youtu.be/gI9bOHkuIiA)。
 - 服装搜索可看 [ModBooru Skyrim SE](https://modbooru.com/mods?query=skyrim_se)。
@@ -162,7 +161,6 @@
 
 ## 其他工具和进阶参考
 
-- [韩网 Nemesis 修复参考](https://arca.live/b/breaking/89606806)：解决部分非英文用户报错。
 - [xTranslator](https://www.nexusmods.com/skyrimspecialedition/mods/134)：翻译工具，常逛 Nexus 的话很有用，可以在新版本上套用旧翻译。
 - [ReSaver](https://www.nexusmods.com/skyrimspecialedition/mods/5031)：存档清理工具。
 - [OStim Standalone 安装指南](https://www.nexusmods.com/skyrimspecialedition/articles/5654)：进阶成人向框架参考。
@@ -177,7 +175,7 @@
 4. SkyUI、Address Library、USSEP、中文翻译等基础前置。
 5. DLL 前置和引擎修复，例如 SSE Engine Fixes、PapyrusUtil、JContainers。注意 SSE Engine Fixes Part 2 是 ![游戏根目录](assets/badges/root.svg)。
 6. 身形、骨骼、物理，例如 XPMSSE、CBBE、3BA、CBPC、Faster HDT-SMP。
-7. UI、功能、动作、人物、环境、服装、任务地图。遇到 ![三选一 / 二选一](assets/badges/choice.svg) 就选一个。
+7. UI、功能、动作、人物、环境、服装、任务地图。遇到 ![多选一](assets/badges/choice.svg) 就选一个。
 8. 每装一批就进游戏测试一次，不要等 300 个 Mod 全装完才排错。
 
 ## 排错原则
