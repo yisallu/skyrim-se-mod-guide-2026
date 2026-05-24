@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>上古卷轴5 Skyrim SE / AE Mod 安装教程 2026 基础篇</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f2;
+      --text: #25251f;
+      --muted: #626252;
+      --link: #0a66c2;
+      --border: #d9d6c8;
+      --code: #ece8da;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191916;
+        --text: #efeee7;
+        --muted: #b8b5a7;
+        --link: #8ab4f8;
+        --border: #3f3c32;
+        --code: #2a271f;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+      line-height: 1.72;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 64px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.28;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 2.2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+    }
+
+    blockquote {
+      margin: 1.2rem 0;
+      padding-left: 1rem;
+      color: var(--muted);
+      border-left: 4px solid var(--border);
+    }
+
+    code {
+      padding: 0.12rem 0.28rem;
+      border-radius: 4px;
+      background: var(--code);
+      font-family: Consolas, "SFMono-Regular", monospace;
+      font-size: 0.95em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      display: block;
+      overflow-x: auto;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.55rem 0.7rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: color-mix(in srgb, var(--code) 78%, transparent);
+    }
+
+    .fallback {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main id="content">
+    <p class="fallback">正在载入文章内容。若页面没有自动渲染，可直接打开 <a href="README.md">README.md</a>。</p>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    fetch("README.md")
+      .then((response) => {
+        if (!response.ok) throw new Error("README load failed");
+        return response.text();
+      })
+      .then((markdown) => {
+        document.getElementById("content").innerHTML = marked.parse(markdown);
+      })
+      .catch(() => {
+        document.getElementById("content").innerHTML =
+          '<p class="fallback">文章正文在 <a href="README.md">README.md</a>，GitHub 会自动把里面的链接渲染为可点击超链接。</p>';
+      });
+  </script>
+</body>
+</html>
