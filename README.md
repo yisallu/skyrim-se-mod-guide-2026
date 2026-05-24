@@ -19,11 +19,16 @@
 
 ## 阅读图例
 
-![三选一 / 二选一](assets/badges/choice.svg) 同类方案按口味或兼容性选，不要全装。  
-![游戏根目录](assets/badges/root.svg) 文件要放到 `SkyrimSE.exe` 所在文件夹。  
-![MO2 安装](assets/badges/mo2.svg) 当作普通 Mod 丢进 MO2 管理。  
-![MO2 工具](assets/badges/tool.svg) 程序本体可放在工具目录，但运行时建议从 MO2 里启动。  
-![版本敏感](assets/badges/version.svg) 必须和你的游戏运行时 / SKSE 版本匹配。  
+![三选一 / 二选一](assets/badges/choice.svg) 同类方案按口味或兼容性选，不要全装。
+
+![游戏根目录](assets/badges/root.svg) 文件要放到 `SkyrimSE.exe` 所在文件夹。
+
+![MO2 安装](assets/badges/mo2.svg) 当作普通 Mod 丢进 MO2 管理。
+
+![MO2 工具](assets/badges/tool.svg) 程序本体可放在工具目录，但运行时建议从 MO2 里启动。
+
+![版本敏感](assets/badges/version.svg) 必须和你的游戏运行时 / SKSE 版本匹配。
+
 ![别全装](assets/badges/warn.svg) 这是提醒，不是购物清单。
 
 ## 基础条件
